@@ -1,0 +1,782 @@
+[
+{
+  "directory": "/workspaces/peepa-discord/Build",
+  "command": "/usr/bin/c++  -I/workspaces/peepa-discord/Include -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/ELFIO -I/workspaces/peepa-discord/Library/fast-cpp-csv-parser -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -std=gnu++2a -o CMakeFiles/peepa-discord.dir/Source/main.cpp.o -c /workspaces/peepa-discord/Source/main.cpp",
+  "file": "/workspaces/peepa-discord/Source/main.cpp",
+  "output": "CMakeFiles/peepa-discord.dir/Source/main.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build",
+  "command": "/usr/bin/c++  -I/workspaces/peepa-discord/Include -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/ELFIO -I/workspaces/peepa-discord/Library/fast-cpp-csv-parser -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -std=gnu++2a -o CMakeFiles/peepa-discord.dir/Source/util.cpp.o -c /workspaces/peepa-discord/Source/util.cpp",
+  "file": "/workspaces/peepa-discord/Source/util.cpp",
+  "output": "CMakeFiles/peepa-discord.dir/Source/util.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build",
+  "command": "/usr/bin/c++  -I/workspaces/peepa-discord/Include -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/ELFIO -I/workspaces/peepa-discord/Library/fast-cpp-csv-parser -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -std=gnu++2a -o CMakeFiles/peepa-discord.dir/Source/elfdata.cpp.o -c /workspaces/peepa-discord/Source/elfdata.cpp",
+  "file": "/workspaces/peepa-discord/Source/elfdata.cpp",
+  "output": "CMakeFiles/peepa-discord.dir/Source/elfdata.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/application.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/application.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/application.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/application.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/auditlog.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/auditlog.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/auditlog.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/auditlog.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/automod.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/automod.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/automod.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/automod.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/ban.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/ban.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/ban.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/ban.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cache.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cache.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cache.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cache.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/channel.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/channel.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/channel.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/channel.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/appcommand.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/appcommand.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/appcommand.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/appcommand.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/automod.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/automod.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/automod.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/automod.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/channel.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/channel.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/channel.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/channel.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/confirmation.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/confirmation.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/confirmation.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/confirmation.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/dm.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/dm.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/dm.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/dm.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/emoji.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/emoji.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/emoji.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/emoji.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/gateway.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/gateway.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/gateway.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/gateway.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/guild.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/guild.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/guild.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/guild.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/guild_member.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/guild_member.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/guild_member.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/guild_member.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/invite.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/invite.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/invite.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/invite.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/json_interface.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/json_interface.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/json_interface.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/json_interface.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/message.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/message.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/message.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/message.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/role.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/role.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/role.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/role.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/scheduled_event.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/scheduled_event.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/scheduled_event.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/scheduled_event.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/stage_instance.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/stage_instance.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/stage_instance.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/stage_instance.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/sticker.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/sticker.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/sticker.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/sticker.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/template.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/template.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/template.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/template.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/thread.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/thread.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/thread.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/thread.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/timer.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/timer.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/timer.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/timer.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/user.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/user.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/user.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/user.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/voice.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/voice.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/voice.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/voice.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster/webhook.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster/webhook.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster/webhook.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster/webhook.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster_coro_calls.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster_coro_calls.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster_coro_calls.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster_coro_calls.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/cluster_sync_calls.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/cluster_sync_calls.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/cluster_sync_calls.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/cluster_sync_calls.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/commandhandler.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/commandhandler.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/commandhandler.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/commandhandler.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/discordclient.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/discordclient.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/discordclient.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/discordclient.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/discordevents.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/discordevents.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/discordevents.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/discordevents.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/discordvoiceclient.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/discordvoiceclient.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/discordvoiceclient.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/discordvoiceclient.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/dispatcher.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/dispatcher.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/dispatcher.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/dispatcher.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/dns.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/dns.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/dns.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/dns.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/dtemplate.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/dtemplate.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/dtemplate.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/dtemplate.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/emoji.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/emoji.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/emoji.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/emoji.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/etf.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/etf.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/etf.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/etf.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_execute.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_execute.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_execute.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_execute.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/automod_rule_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/automod_rule_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/channel_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/channel_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/channel_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/channel_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/channel_pins_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_pins_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_pins_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/channel_pins_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/channel_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/channel_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/channel_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_audit_log_entry_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_audit_log_entry_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_audit_log_entry_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_audit_log_entry_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_ban_add.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_ban_add.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_ban_add.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_ban_add.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_ban_remove.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_ban_remove.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_ban_remove.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_ban_remove.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_emojis_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_emojis_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_emojis_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_emojis_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_integrations_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_integrations_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_integrations_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_integrations_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_join_request_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_join_request_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_join_request_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_join_request_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_add.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_add.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_add.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_add.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_remove.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_remove.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_remove.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_remove.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_member_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_member_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_members_chunk.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_members_chunk.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_members_chunk.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_members_chunk.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_role_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_role_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_user_add.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_user_add.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_user_add.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_user_add.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_user_remove.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_user_remove.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_scheduled_event_user_remove.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_scheduled_event_user_remove.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_stickers_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_stickers_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_stickers_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_stickers_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/guild_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/guild_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/guild_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/integration_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/integration_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/integration_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/integration_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/integration_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/integration_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/integration_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/interaction_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/interaction_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/interaction_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/interaction_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/invite_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/invite_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/invite_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/invite_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/invite_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/invite_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/invite_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/invite_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/logger.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/logger.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/logger.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/logger.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_delete_bulk.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_delete_bulk.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_delete_bulk.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_delete_bulk.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_add.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_add.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_add.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_add.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove_all.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove_all.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove_all.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove_all.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove_emoji.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove_emoji.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_reaction_remove_emoji.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_reaction_remove_emoji.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/message_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/message_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/message_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/message_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/presence_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/presence_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/presence_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/presence_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/ready.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/ready.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/ready.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/ready.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/resumed.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/resumed.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/resumed.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/resumed.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/stage_instance_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/stage_instance_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_create.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_create.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_create.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_create.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_delete.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_delete.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_delete.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_delete.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_list_sync.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_list_sync.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_list_sync.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_list_sync.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_member_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_member_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_member_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_member_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_members_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_members_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_members_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_members_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/thread_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/thread_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/thread_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/typing_start.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/typing_start.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/typing_start.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/typing_start.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/user_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/user_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/user_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/user_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/voice_server_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/voice_server_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/voice_server_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/voice_server_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/voice_state_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/voice_state_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/voice_state_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/voice_state_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/events/webhooks_update.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/events/webhooks_update.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/events/webhooks_update.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/events/webhooks_update.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/guild.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/guild.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/guild.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/guild.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/httpsclient.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/httpsclient.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/httpsclient.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/httpsclient.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/integration.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/integration.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/integration.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/integration.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/invite.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/invite.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/invite.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/invite.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/message.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/message.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/message.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/message.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/permissions.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/permissions.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/permissions.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/permissions.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/presence.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/presence.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/presence.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/presence.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/prune.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/prune.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/prune.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/prune.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/queues.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/queues.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/queues.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/queues.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/role.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/role.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/role.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/role.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/scheduled_event.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/scheduled_event.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/scheduled_event.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/scheduled_event.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/slashcommand.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/slashcommand.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/slashcommand.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/slashcommand.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/snowflake.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/snowflake.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/snowflake.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/snowflake.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/sslclient.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/sslclient.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/sslclient.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/sslclient.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/stage_instance.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/stage_instance.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/stage_instance.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/stage_instance.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/user.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/user.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/user.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/user.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/utility.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/utility.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/utility.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/utility.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/voiceregion.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/voiceregion.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/voiceregion.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/voiceregion.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/voicestate.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/voicestate.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/voicestate.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/voicestate.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/webhook.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/webhook.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/webhook.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/webhook.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_PRCTL -DHAVE_VOICE -Ddpp_EXPORTS -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp -I/workspaces/peepa-discord/Library/DPP/include  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -fPIC -mavx2 -o CMakeFiles/dpp.dir/__/src/dpp/wsclient.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/dpp/wsclient.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/dpp/wsclient.cpp",
+  "output": "Library/DPP/library/CMakeFiles/dpp.dir/__/src/dpp/wsclient.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_VOICE -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -mavx2 -o CMakeFiles/soaktest.dir/__/src/soaktest/soak.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/soaktest/soak.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/soaktest/soak.cpp",
+  "output": "Library/DPP/library/CMakeFiles/soaktest.dir/__/src/soaktest/soak.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_VOICE -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -mavx2 -o CMakeFiles/unittest.dir/__/src/unittest/coro.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/unittest/coro.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/unittest/coro.cpp",
+  "output": "Library/DPP/library/CMakeFiles/unittest.dir/__/src/unittest/coro.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_VOICE -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -mavx2 -o CMakeFiles/unittest.dir/__/src/unittest/test.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/unittest/test.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/unittest/test.cpp",
+  "output": "Library/DPP/library/CMakeFiles/unittest.dir/__/src/unittest/test.cpp.o"
+},
+{
+  "directory": "/workspaces/peepa-discord/Build/Library/DPP/library",
+  "command": "/usr/bin/c++ -DAVX_TYPE=2 -DDPP_BUILD -DDPP_OS=Linux -DHAVE_VOICE -I/workspaces/peepa-discord/Library/DPP/include -I/workspaces/peepa-discord/Library/DPP/library/../include -I/workspaces/peepa-discord/Library/DPP/library/../include/dpp  -Wall -Wno-unused-private-field -Wno-psabi -Wempty-body -Wignored-qualifiers -Wimplicit-fallthrough -Wmissing-field-initializers -Wsign-compare -Wtype-limits -Wuninitialized -Wshift-negative-value -pthread -std=gnu++2a -mavx2 -o CMakeFiles/unittest.dir/__/src/unittest/unittest.cpp.o -c /workspaces/peepa-discord/Library/DPP/src/unittest/unittest.cpp",
+  "file": "/workspaces/peepa-discord/Library/DPP/src/unittest/unittest.cpp",
+  "output": "Library/DPP/library/CMakeFiles/unittest.dir/__/src/unittest/unittest.cpp.o"
+}
+]

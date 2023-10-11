@@ -1,0 +1,9 @@
+[submodule "Library/DPP"]
+	path = Library/DPP
+	url = https://github.com/brainboxdotcc/DPP
+[submodule "Library/ELFIO"]
+	path = Library/ELFIO
+	url = https://github.com/serge1/ELFIO
+[submodule "Library/fast-cpp-csv-parser"]
+	path = Library/fast-cpp-csv-parser
+	url = https://github.com/ben-strasser/fast-cpp-csv-parser
