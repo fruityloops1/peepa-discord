@@ -1,4 +1,7 @@
 .token
 Build/
 .cache/
-Data/
+main.elf
+main.csv
+compile_commands.json
+wiiu.csv

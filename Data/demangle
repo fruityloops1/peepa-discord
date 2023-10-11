@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$@" | llvm-cxxfilt | clang-format --style="{BasedOnStyle: WebKit, QualifierAlignment: Left}"

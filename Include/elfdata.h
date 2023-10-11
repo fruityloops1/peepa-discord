@@ -14,3 +14,6 @@ struct Symbol {
 
 const std::vector<Symbol>& getSymbolsKiosk();
 const std::vector<Symbol>& getSymbolsRelease();
+const std::vector<Symbol>& getSymbolsWiiuEu();
+
+std::string demangle(const std::string& input);
