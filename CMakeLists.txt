@@ -12,7 +12,7 @@ include_directories(Library/DPP/include)
 include_directories(Library/ELFIO)
 include_directories(Library/fast-cpp-csv-parser)
 
-add_executable(peepa-discord Source/main.cpp Source/util.cpp Source/elfdata.cpp)
+add_executable(peepa-discord Source/main.cpp Source/util.cpp Source/elfdata.cpp Source/SymbolData.cpp)
 target_link_libraries(peepa-discord PRIVATE dpp elfio pthread)
 
 file(COPY Data DESTINATION .)

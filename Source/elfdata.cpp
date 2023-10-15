@@ -29,27 +29,7 @@ std::string demangle(const std::string& input)
 static ELFIO::elfio reader;
 static ELFIO::section* dynsym = nullptr;
 
-std::vector<Symbol> kioskSyms;
-
-const std::vector<Symbol>& getSymbolsKiosk()
-{
-    return kioskSyms;
-}
-std::vector<Symbol> releaseSyms;
-
-const std::vector<Symbol>& getSymbolsRelease()
-{
-    return releaseSyms;
-}
-
-std::vector<Symbol> wiiuEuSyms;
-
-const std::vector<Symbol>& getSymbolsWiiuEu()
-{
-    return wiiuEuSyms;
-}
-
-void loadElfData()
+/*void loadElfData()
 {
     reader.load("Data/main.elf");
 
@@ -105,4 +85,4 @@ void loadElfData()
             set.ref.push_back({ set.file == "Data/wiiu.csv" ? addr + 0x02000000 : addr, 0, theName });
         }
     }
-}
+}*/

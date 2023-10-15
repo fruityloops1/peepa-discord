@@ -2,7 +2,8 @@
 #include <cstdlib>
 #include <fstream>
 
-std::string readStringFromFile(const std::string& filename) {
+std::string readStringFromFile(const std::string& filename)
+{
     std::ifstream file(filename);
     std::string content;
 
@@ -14,4 +15,14 @@ std::string readStringFromFile(const std::string& filename) {
     }
 
     return content;
+}
+
+std::string truncateString(const std::string& str)
+{
+    if (str.length() > 2047) {
+        std::string truncatedString = str.substr(0, 2044) + "...";
+        return truncatedString;
+    } else {
+        return str;
+    }
 }
