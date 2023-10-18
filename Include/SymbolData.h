@@ -3,6 +3,7 @@
 #include "snowflake.h"
 #include <bits/types/time_t.h>
 #include <cstdint>
+#include <mutex>
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -22,9 +23,12 @@ struct Comment {
 };
 
 struct SymbolDB {
-    std::vector<Symbol> symbols;
+    std::map<uint32_t, Symbol> symbols;
     std::vector<Comment> comments;
 
     void save(const std::string& file);
     void load(const std::string& file);
+    void loadFromStream(std::istream& data, const std::string& filename);
+    std::string saveSymbols();
+    std::string saveComments();
 };
