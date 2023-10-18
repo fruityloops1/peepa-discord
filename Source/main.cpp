@@ -472,7 +472,7 @@ int main()
                 for (auto symbol : sDatabase.symbols)
                 {
                     if (symbol.second.name.find(query) != std::string::npos)
-                        print += format("%s - 71%.8X\n", demangleIfNecessary(symbol.second.name));
+                        print += format("%s - 71%.8X\n", demangleIfNecessary(symbol.second.name).c_str(), symbol.first);
                 }
 
                 embed.set_description(print.empty() ? "No symbols found with query" : print);
