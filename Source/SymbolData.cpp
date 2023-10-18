@@ -1,5 +1,6 @@
 #include "SymbolData.h"
 #include "csv.h"
+#include "util.h"
 #include <fstream>
 #include <iomanip>
 #include <mutex>
@@ -65,6 +66,8 @@ void SymbolDB::save(const std::string& file)
         out << saveSymbols();
     }
 
+    system(format("cp %s Backups/%s-%zu", file.c_str(), file.c_str(), time(nullptr)).c_str());
+
     std::string fileComments(file);
     fileComments.append(".comments");
     std::ofstream out(fileComments);
@@ -78,4 +81,6 @@ void SymbolDB::save(const std::string& file)
         out << "\"" << std::dec << comment.added << "\",";
         out << "\"" << std::dec << comment.user << "\"\n";
     }
+
+    system(format("cp %s Backups/%s-%zu", fileComments.c_str(), fileComments.c_str(), time(nullptr)).c_str());
 }
