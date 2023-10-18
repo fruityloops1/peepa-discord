@@ -298,8 +298,9 @@ static void httpThread()
                     return;
                 }
 
-                res.status = 200;
-                res.set_content(mergeDBsInternal(givenDB, user), "text/plain");
+                std::string out = mergeDBsInternal(givenDB, user);
+                res.status = out == "success" ? 200 : 201;
+                res.set_content(out, "text/plain");
             }
             else
                 res.status = 401;
