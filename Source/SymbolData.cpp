@@ -38,7 +38,8 @@ void SymbolDB::loadFromStream(std::istream& data, const std::string& filename)
         time_t lastUpdatedValue = std::stoul(lastUpdated);
         dpp::snowflake lastUpdatedUserValue = std::stoul(lastUpdatedUser);
 
-        symbols[addrValue] = { addrValue, name, lastUpdatedValue, lastUpdatedUserValue };
+        if (!isGarbageSymbol(name))
+            symbols[addrValue] = { addrValue, name, lastUpdatedValue, lastUpdatedUserValue };
     }
     
 }
