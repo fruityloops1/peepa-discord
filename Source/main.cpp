@@ -158,7 +158,7 @@ static std::string mergeDBsInternal(SymbolDB& with, dpp::snowflake author)
     else {
         std::string id = generateRandomString(24);
         sConflicts[id] = { with, author };
-        return format("http://127.0.0.1:5224/conflict/%s/", id.c_str());
+        return format("http://wsdb.littun.co/conflict/%s/", id.c_str());
     }
 }
 
@@ -186,7 +186,7 @@ static void mergeDBs(SymbolDB& with, const dpp::message_create_t& msgEvent)
     else {
         std::string id = generateRandomString(24);
         sConflicts[id] = { with, msgEvent.msg.author.id };
-        dpp::embed embed = fail("Conflicts found", format("Solve conflicts at http://127.0.0.1:5224/conflict/%s/", id.c_str()));
+        dpp::embed embed = fail("Conflicts found", format("Solve conflicts at http://wsdb.littun.co/conflict/%s/", id.c_str()));
         dpp::message msg;
         msg.set_flags(dpp::m_ephemeral);
         msg.add_embed(embed);
