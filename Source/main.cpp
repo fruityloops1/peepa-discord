@@ -417,6 +417,38 @@ int main()
             msg.add_embed(success("Successfully generated API token", format("Your token is %s\nPlease note that this token is regenerated with each use of this command.", sApiTokens[event.command.member.user_id].c_str())));
             msg.set_flags(dpp::m_ephemeral);
             event.reply(msg);
+        } else if (event.command.get_command_name() == "removesymbol") 
+        {
+            uint64_t addr(std::get<long>(event.get_parameter("address")));
+            if (addr >= 0x7100000000)
+                addr -= 0x7100000000;
+
+            dpp::message msg;
+            if (!haspermission(event.command.member))
+            {
+                msg.add_embed(fail("You don't have permission to edit the symbol database"));
+                msg.set_flags(dpp::m_ephemeral);
+                event.reply(msg);
+                return;
+            }
+
+            {
+                std::lock_guard<std::mutex> lock(sDatabaseLock);
+                if (sDatabase.symbols.contains(addr))
+                {
+                    sDatabase.symbols.erase(addr);
+                    sDatabase.save(sDatabaseFile);
+
+
+                    msg.add_embed(fail(format("Successfully removed symbol at 71%.8X", addr)));
+                    msg.set_flags(dpp::m_ephemeral);
+                    event.reply(msg);
+                } else {
+                    msg.add_embed(fail(format("No symbol exists at 71%.8X", addr)));
+                    msg.set_flags(dpp::m_ephemeral);
+                    event.reply(msg);
+                }
+            }
         }
     });
 
@@ -514,6 +546,12 @@ int main()
             setCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address of the symbol", true));
             setCmd.add_option(dpp::command_option(dpp::co_string, "symbol", "The symbol to be set", true));
 
+            dpp::slashcommand removeSymCmd(
+                "removesymbol",
+                "Remove symbol from address",
+                bot.me.id);
+            removeSymCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address of the symbol", true));
+
             dpp::slashcommand addCommentCmd(
                 "addcomment",
                 "Add comment to address",
@@ -533,6 +571,7 @@ int main()
             bot.global_command_create(setCmd);
             bot.global_command_create(addCommentCmd);
             bot.global_command_create(apiTokenCmd);
+            bot.global_command_create(removeSymCmd);
         }
     });
 
