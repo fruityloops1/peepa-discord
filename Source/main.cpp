@@ -450,6 +450,37 @@ int main()
                 }
             }
         }
+        else if (event.command.get_command_name() == "search")
+        {
+            std::string query(std::get<std::string>(event.get_parameter("query")));
+
+            {
+                std::lock_guard<std::mutex> lock(sDatabaseLock);
+
+                dpp::embed embed;
+                embed.set_title("Symbol Search");
+                embed.set_color(dpp::colors::bashful_pink);
+
+                std::string print;
+
+                auto demangleIfNecessary = [](const std::string& symbol) {
+                    if (symbol.find("_Z") != std::string::npos)
+                        return format("%s (%s)", demangle(symbol).c_str(), symbol.c_str());
+                    return symbol;  
+                };
+
+                for (auto symbol : sDatabase.symbols)
+                {
+                    if (symbol.second.name.find(query) != std::string::npos)
+                        print += format("%s - 71%.8X\n", demangleIfNecessary(symbol.second.name));
+                }
+
+                embed.set_description(print.empty() ? "No symbols found with query" : print);
+                dpp::message msg;
+                msg.add_embed(embed);
+                event.reply(msg);
+            }
+        }
     });
 
     bot.on_message_create([&bot](const dpp::message_create_t& msgEvent) {
@@ -538,6 +569,14 @@ int main()
             
             lookupCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address to be looked up", true));
 
+
+            dpp::slashcommand searchCmd(
+                "search",
+                "Search for symbol by query",
+                bot.me.id);
+            
+            lookupCmd.add_option(dpp::command_option(dpp::co_string, "query", "The search query", true));
+
             dpp::slashcommand setCmd(
                 "setsymbol",
                 "Set symbol for address",
@@ -567,6 +606,7 @@ int main()
                 bot.me.id);
 
             bot.global_command_create(demangleCmd);
+            bot.global_command_create(searchCmd);
             bot.global_command_create(lookupCmd);
             bot.global_command_create(setCmd);
             bot.global_command_create(addCommentCmd);
