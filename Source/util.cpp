@@ -44,7 +44,7 @@ std::string generateRandomString(int n)
 {
     std::string result;
     static const char stuff[] =
-        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890#.,-";
+        "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 
     int alphabetSize = sizeof(stuff) - 1;
 
