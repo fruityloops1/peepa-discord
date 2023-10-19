@@ -6,6 +6,7 @@
 #include "guild.h"
 #include "mergeconflict.h"
 #include "message.h"
+#include "restresults.h"
 #include "unicode_emoji.h"
 #include "util.h"
 #include <ctime>
@@ -576,7 +577,7 @@ int main()
                 "Search for symbol by query",
                 bot.me.id);
             
-            lookupCmd.add_option(dpp::command_option(dpp::co_string, "query", "The search query", true));
+            searchCmd.add_option(dpp::command_option(dpp::co_string, "query", "The search query", true));
 
             dpp::slashcommand setCmd(
                 "setsymbol",
