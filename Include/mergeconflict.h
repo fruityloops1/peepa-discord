@@ -54,6 +54,11 @@ constexpr const char sConflictFmt2[] = R"(
     
     <input type="submit" value="Submit">
   </form>
+
+  <form method="post" action="submit_resolution">
+    <input type="hidden" name="cancel" value="CANCEL">
+    <button type="submit">Cancel</button>
+  </form>
 </body>
 </html>
 )";

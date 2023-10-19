@@ -235,6 +235,11 @@ static void httpThread()
         auto conflict_id = req.path_params.at("conflictid");
         if (sConflicts.contains(conflict_id))
         {
+            if (req.body == "CANCEL")
+            {
+                sConflicts.clear();
+                return;
+            }
             std::vector<std::string> options = splitString(req.body, '&');
             std::vector<bool> decisions;
             for (std::string option : options)
