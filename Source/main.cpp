@@ -86,7 +86,7 @@ dpp::embed success(const std::string& msg, const std::string& footer = "")
     return embed;
 }
 
-constexpr dpp::snowflake sPermissionRole = 846685685670477855;
+constexpr dpp::snowflake sPermissionRole = 1163869548961874021;
 
 bool haspermission(const dpp::guild_member& user)
 {
