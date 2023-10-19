@@ -35,7 +35,7 @@ void SymbolDB::loadFromStream(std::istream& data, const std::string& filename)
     std::string addr, name, lastUpdated, lastUpdatedUser;
     int i = 0;
     while (in.read_row(addr, name, lastUpdated, lastUpdatedUser)) {
-        uint32_t addrValue = std::stoi(addr, nullptr, 16);
+        uint32_t addrValue;
         try {
             addrValue = std::stoi(addr, nullptr, 16);
         } catch (const std::exception& e)
