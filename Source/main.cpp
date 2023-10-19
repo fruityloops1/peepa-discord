@@ -452,7 +452,7 @@ int main()
                 }
             }
         }
-        else if (event.command.get_command_name() == "searchsymbols")
+        else if (event.command.get_command_name() == "search")
         {
             std::string query(std::get<std::string>(event.get_parameter("query")));
 
