@@ -241,8 +241,8 @@ static void httpThread()
         {
             if (req.body.find("SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL") != std::string::npos)
             {
-                sConflicts.clear();
                 auto conflictdb = sConflicts[conflict_id];
+                sConflicts.erase(conflict_id);
                 dpp::embed embed = fail("Note", format("<@%zu> has cancelled conflict", conflictdb.second));
                 dpp::message msg;
                 msg.add_embed(embed);
