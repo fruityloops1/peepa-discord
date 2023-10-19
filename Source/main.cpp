@@ -24,6 +24,7 @@
 SymbolDB sDatabase;
 constexpr const char* sDatabaseFile = "db.csv";
 std::mutex sDatabaseLock;
+dpp::cluster* bot = nullptr;
 
 dpp::embed lookupCommand(uint64_t address)
 {
@@ -87,6 +88,7 @@ dpp::embed success(const std::string& msg, const std::string& footer = "")
 }
 
 constexpr dpp::snowflake sPermissionRole = 1163869548961874021;
+constexpr dpp::snowflake sNotifChannel = 1164550169350639656;
 
 bool haspermission(const dpp::guild_member& user)
 {
@@ -238,6 +240,12 @@ static void httpThread()
             if (req.body == "CANCEL")
             {
                 sConflicts.clear();
+                auto conflictdb = sConflicts[conflict_id];
+                dpp::embed embed = fail("Note", format("<@%zu> has cancelled conflict", conflictdb.second));
+                dpp::message msg;
+                msg.add_embed(embed);
+                msg.channel_id = sNotifChannel;
+                bot->message_create(msg);
                 return;
             }
             std::vector<std::string> options = splitString(req.body, '&');
@@ -281,6 +289,12 @@ static void httpThread()
                         sDatabase.symbols[entry.first].updatedUser = conflictdb.second;
                     }
                 }
+
+                dpp::embed embed = success("Note", format("<@%zu> has solved conflicts", conflictdb.second));
+                dpp::message msg;
+                msg.add_embed(embed);
+                msg.channel_id = sNotifChannel;
+                bot->message_create(msg);
 
                 sDatabase.save(sDatabaseFile);
                 res.status = 200;
@@ -326,6 +340,12 @@ static void httpThread()
                 std::string out = mergeDBsInternal(givenDB, user);
                 res.status = out == "success" ? 200 : 201;
                 res.set_content(out, "text/plain");
+
+                dpp::embed embed = success("Symbol database has been updated", format("<@%zu> has updated the [symbol database](https://wsdb.littun.co/api/symbols) using the API", user));
+                dpp::message msg;
+                msg.add_embed(embed);
+                msg.channel_id = sNotifChannel;
+                bot->message_create(msg);
             }
             else
                 res.status = 401;
@@ -342,11 +362,11 @@ int main()
     sDatabase.load(sDatabaseFile);
     // loadElfData();
     std::string token = readStringFromFile("Data/.token");
-    dpp::cluster bot(token, dpp::intents::i_default_intents | dpp::intents::i_message_content);
-    bot.on_log(dpp::utility::cout_logger());
+    bot = new dpp::cluster(token, dpp::intents::i_default_intents | dpp::intents::i_message_content);
+    bot->on_log(dpp::utility::cout_logger());
     std::thread http(httpThread);
 
-    bot.on_slashcommand([](const dpp::slashcommand_t& event) {
+    bot->on_slashcommand([](const dpp::slashcommand_t& event) {
         if (event.command.get_command_name() == "lookup") {
             uint64_t addr(std::get<long>(event.get_parameter("address")));
             if (addr >= 0x7100000000)
@@ -509,11 +529,11 @@ int main()
         }
     });
 
-    bot.on_message_create([&bot](const dpp::message_create_t& msgEvent) {
+    bot->on_message_create([](const dpp::message_create_t& msgEvent) {
         bool mentionsMe = false;
         for (auto mention : msgEvent.msg.mentions)
         {
-            if (mention.first.id == bot.me.id)
+            if (mention.first.id == bot->me.id)
                 mentionsMe = true;
         }
         if (mentionsMe && !msgEvent.msg.attachments.empty())
@@ -565,12 +585,12 @@ int main()
         }
     });
 
-    bot.on_ready([&bot](const dpp::ready_t& event) {
+    bot->on_ready([](const dpp::ready_t& event) {
         if (dpp::run_once<struct register_bot_commands>()) {
             // dpp::slashcommand symbolAt(
             //     "symbolat",
             //     "Get Symbol(s) at the specified address",
-            //     bot.me.id);
+            //     bot->me.id);
 
             // symbolAt.add_option(dpp::command_option(dpp::co_integer, "address", "Address", true));
             // symbolAt.add_option(
@@ -579,19 +599,19 @@ int main()
             //         .add_choice(dpp::command_option_choice("Kiosk", std::string("kiosk")))
             //         .add_choice(dpp::command_option_choice("Wii U (EU)", std::string("wiiu"))));
 
-            // bot.global_command_create(symbolAt);
+            // bot->global_command_create(symbolAt);
 
             dpp::slashcommand demangleCmd(
                 "demangle",
                 "Demangles C++ Symbol",
-                bot.me.id);
+                bot->me.id);
 
             demangleCmd.add_option(dpp::command_option(dpp::co_string, "symbol", "Mangled symbol", true));
 
             dpp::slashcommand lookupCmd(
                 "lookup",
                 "Lookup symbol for address",
-                bot.me.id);
+                bot->me.id);
             
             lookupCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address to be looked up", true));
 
@@ -599,14 +619,14 @@ int main()
             dpp::slashcommand searchCmd(
                 "search",
                 "Search for symbol by query",
-                bot.me.id);
+                bot->me.id);
             
             searchCmd.add_option(dpp::command_option(dpp::co_string, "query", "The search query", true));
 
             dpp::slashcommand setCmd(
                 "setsymbol",
                 "Set symbol for address",
-                bot.me.id);
+                bot->me.id);
             
             setCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address of the symbol", true));
             setCmd.add_option(dpp::command_option(dpp::co_string, "symbol", "The symbol to be set", true));
@@ -614,13 +634,13 @@ int main()
             dpp::slashcommand removeSymCmd(
                 "removesymbol",
                 "Remove symbol from address",
-                bot.me.id);
+                bot->me.id);
             removeSymCmd.add_option(dpp::command_option(dpp::co_integer, "address", "The address of the symbol", true));
 
             dpp::slashcommand addCommentCmd(
                 "addcomment",
                 "Add comment to address",
-                bot.me.id);
+                bot->me.id);
 
             addCommentCmd.add_option(dpp::command_option(dpp::co_integer, "address", "Address", true));
             addCommentCmd.add_option(dpp::command_option(dpp::co_string, "comment", "The comment to be added", true));
@@ -629,17 +649,17 @@ int main()
             dpp::slashcommand apiTokenCmd(
                 "apitoken",
                 "Generate new API token",
-                bot.me.id);
+                bot->me.id);
 
-            bot.global_command_create(demangleCmd);
-            bot.global_command_create(searchCmd);
-            bot.global_command_create(lookupCmd);
-            bot.global_command_create(setCmd);
-            bot.global_command_create(addCommentCmd);
-            bot.global_command_create(apiTokenCmd);
-            bot.global_command_create(removeSymCmd);
+            bot->global_command_create(demangleCmd);
+            bot->global_command_create(searchCmd);
+            bot->global_command_create(lookupCmd);
+            bot->global_command_create(setCmd);
+            bot->global_command_create(addCommentCmd);
+            bot->global_command_create(apiTokenCmd);
+            bot->global_command_create(removeSymCmd);
         }
     });
 
-    bot.start(dpp::st_wait);
+    bot->start(dpp::st_wait);
 }
