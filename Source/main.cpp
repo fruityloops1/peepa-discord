@@ -263,6 +263,25 @@ static void httpThread()
                     symbol.updatedUser = conflictdb.second;
                 }
 
+                auto isInConflicts = [&conflicts](uint64_t address) {
+                    for (const auto conflict : conflicts)
+                    {
+                        if (conflict.first.addr == address)
+                            return true;
+                    }
+                    return false;
+                };
+
+                for (auto entry : conflictdb.first.symbols)
+                {
+                    if (!isInConflicts(entry.first) && !sDatabase.symbols.contains(entry.first))
+                    {
+                        sDatabase.symbols[entry.first] = entry.second;
+                        sDatabase.symbols[entry.first].lastUpdated = time(nullptr);
+                        sDatabase.symbols[entry.first].updatedUser = conflictdb.second;
+                    }
+                }
+
                 sDatabase.save(sDatabaseFile);
                 res.status = 200;
             }
