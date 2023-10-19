@@ -56,7 +56,7 @@ constexpr const char sConflictFmt2[] = R"(
   </form>
 
   <form method="post" action="submit_resolution">
-    <input type="hidden" name="cancel" value="CANCEL">
+    <input type="hidden" name="cancel" value="SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL">
     <button type="submit">Cancel</button>
   </form>
 </body>

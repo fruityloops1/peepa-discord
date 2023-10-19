@@ -77,13 +77,15 @@ dpp::embed fail(const std::string& msg, const std::string description = "")
     return embed;
 }
 
-dpp::embed success(const std::string& msg, const std::string& footer = "")
+dpp::embed success(const std::string& msg, const std::string& footer = "", const std::string& description = "")
 {
     dpp::embed embed;
     embed.set_title("✅ " + msg);
     embed.set_color(dpp::colors::green_apple);
     if (!footer.empty())
         embed.set_footer(footer, "");
+    if (!description.empty())
+        embed.set_description(description);
     return embed;
 }
 
@@ -237,7 +239,7 @@ static void httpThread()
         auto conflict_id = req.path_params.at("conflictid");
         if (sConflicts.contains(conflict_id))
         {
-            if (req.body == "CANCEL")
+            if (req.body.find("SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL") != std::string::npos)
             {
                 sConflicts.clear();
                 auto conflictdb = sConflicts[conflict_id];
@@ -290,7 +292,7 @@ static void httpThread()
                     }
                 }
 
-                dpp::embed embed = success("Note", format("<@%zu> has solved conflicts", conflictdb.second));
+                dpp::embed embed = success("Note", "", format("<@%zu> has solved conflicts", conflictdb.second));
                 dpp::message msg;
                 msg.add_embed(embed);
                 msg.channel_id = sNotifChannel;
@@ -341,7 +343,7 @@ static void httpThread()
                 res.status = out == "success" ? 200 : 201;
                 res.set_content(out, "text/plain");
 
-                dpp::embed embed = success("Symbol database has been updated", format("<@%zu> has updated the [symbol database](https://wsdb.littun.co/api/symbols) using the API", user));
+                dpp::embed embed = success("Symbol database has been updated", "", format("<@%zu> has updated the [symbol database](https://wsdb.littun.co/api/symbols) using the API", user));
                 dpp::message msg;
                 msg.add_embed(embed);
                 msg.channel_id = sNotifChannel;
