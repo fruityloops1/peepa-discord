@@ -33,13 +33,33 @@ void SymbolDB::loadFromStream(std::istream& data, const std::string& filename)
     symbols.clear();
 
     std::string addr, name, lastUpdated, lastUpdatedUser;
+    int i = 0;
     while (in.read_row(addr, name, lastUpdated, lastUpdatedUser)) {
         uint32_t addrValue = std::stoi(addr, nullptr, 16);
-        time_t lastUpdatedValue = std::stoul(lastUpdated);
-        dpp::snowflake lastUpdatedUserValue = std::stoul(lastUpdatedUser);
+        try {
+            addrValue = std::stoi(addr, nullptr, 16);
+        } catch (const std::exception& e)
+        {
+            throw std::runtime_error(format("Cannot parse Address (Line %d)", i));
+        }
+        time_t lastUpdatedValue;
+        try {
+            lastUpdatedValue = std::stoul(lastUpdated);
+        } catch (const std::exception& e)
+        {
+            throw std::runtime_error(format("Cannot parse Timestamp (Line %d)", i));
+        }
+        dpp::snowflake lastUpdatedUserValue;
+        try {
+            lastUpdatedUserValue = std::stoul(lastUpdatedUser);
+        } catch (const std::exception& e)
+        {
+            throw std::runtime_error(format("Cannot parse User ID (Line %d)", i));
+        }
 
         if (!isGarbageSymbol(name))
             symbols[addrValue] = { addrValue, name, lastUpdatedValue, lastUpdatedUserValue };
+        i++;
     }
     
 }
