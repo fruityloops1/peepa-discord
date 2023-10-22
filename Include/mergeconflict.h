@@ -83,14 +83,18 @@ constexpr const char sConflictEntryFmt[] = R"(
   </td>
   <td>
     <label for="conflict1-%d">
-      <input type="radio" id="conflict1-%d" name="%d" value="old">
-      <div class="symbolname">%s</div>
+      <div class="symbolname">
+        <input type="radio" id="conflict1-%d" name="%d" value="old">
+        %s
+      </div>
     </label>
   </td>
   <td>
     <label for="conflict2-%d">
-      <input type="radio" id="conflict2-%d" name="%d" value="new" checked>
-      <div class="symbolname">%s</div>
+      <div class="symbolname">
+        <input type="radio" id="conflict2-%d" name="%d" value="new" checked>
+        %s
+      </div>
     </label>
   </td>
 </tr>
