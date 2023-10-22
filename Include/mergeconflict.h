@@ -6,7 +6,6 @@ constexpr const char sConflictFmt1[] = R"(
 <head>
   <title>Solve Merge Conflict</title>
   <style>
-  
     table {
       border-collapse: collapse;
     }
@@ -32,6 +31,18 @@ constexpr const char sConflictFmt1[] = R"(
 
     p {
         font-family: Arial;
+    }
+    
+    .addr {
+        max-width: 10vw;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    
+    .symbolname {
+        max-width: 40vw;
+        overflow: auto;
+        white-space: nowrap;
     }
   </style>
 </head>
@@ -67,19 +78,19 @@ constexpr const char sConflictEntryFmt[] = R"(
 <tr>
   <td>
     <label>
-      71%.8X
+      <div class="addr">71%.8X</div>
     </label>
   </td>
   <td>
     <label for="conflict1-%d">
       <input type="radio" id="conflict1-%d" name="%d" value="old">
-      %s
+      <div class="symbolname">%s</div>
     </label>
   </td>
   <td>
     <label for="conflict2-%d">
       <input type="radio" id="conflict2-%d" name="%d" value="new" checked>
-      %s
+      <div class="symbolname">%s</div>
     </label>
   </td>
 </tr>
