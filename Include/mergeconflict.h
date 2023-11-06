@@ -6,17 +6,18 @@ constexpr const char sConflictFmt1[] = R"(
 <head>
   <title>Solve Merge Conflict</title>
   <script>
-    function clickAllOld() {
-      var radioButtons = document.querySelectorAll('input[type="radio"][id=^="conflict1"]');
-      radioButtons.forEach(function(radioButton) {
-        radioButton.checked = true;
-      });
+    function selectOldButtons() {
+      var oldButtons = document.querySelectorAll('input[value="old"]');
+      for (var i = 0; i < oldButtons.length; i++) {
+        oldButtons[i].checked = true;
+      }
     }
-    function clickAllNew() {
-      var radioButtons = document.querySelectorAll('input[type="radio"][id=^="conflict2"]');
-      radioButtons.forEach(function(radioButton) {
-        radioButton.checked = true;
-      });
+    
+    function selectNewButtons() {
+      var newButtons = document.querySelectorAll('input[value="new"]');
+      for (var i = 0; i < newButtons.length; i++) {
+        newButtons[i].checked = true;
+      }
     }
   </script>
   <style>
@@ -70,8 +71,8 @@ constexpr const char sConflictFmt1[] = R"(
   <p>Merge conflicts have been found. Please select the symbols of higher quality and click submit.</p>
   
   <div class="buttons">
-    <button onclick=\"clickAllOld()\">Select all old</button>
-    <button onclick=\"clickAllNew()\">Select all new</button>
+    <button onclick=\"selectOldButtons()\">Select all old</button>
+    <button onclick=\"selectNewButtons()\">Select all new</button>
   </div>
   <br><br>
   <form method="post" action="submit_resolution">
