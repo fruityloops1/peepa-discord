@@ -91,11 +91,17 @@ dpp::embed success(const std::string& msg, const std::string& footer = "", const
 
 constexpr dpp::snowflake sPermissionRole = 1163869548961874021;
 constexpr dpp::snowflake sNotifChannel = 1164550169350639656;
+constexpr dpp::snowflake sPermitted[] {
+    339842109748019201
+};
 
 bool haspermission(const dpp::guild_member& user)
 {
     for (auto role : user.get_roles())
         if (role == sPermissionRole)
+            return true;
+    for (auto permittedId : sPermitted)
+        if (permittedId == user.user_id)
             return true;
     return false;
 }
