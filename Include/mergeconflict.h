@@ -65,8 +65,8 @@ constexpr const char sConflictFmt1[] = R"(
   <h2>Solve Merge Conflict</h2>
   <p>Merge conflicts have been found. Please select the symbols of higher quality and click submit.</p>
   
-  <button onclick=\"selectOldButtons()\">Select all old</button>
-  <button onclick=\"selectNewButtons()\">Select all new</button>
+  <button onclick="selectOldButtons()\">Select all old</button>
+  <button onclick="selectNewButtons()\">Select all new</button>
   <br><br>
   <form method="post" action="submit_resolution">
     <table>
