@@ -5,6 +5,20 @@ constexpr const char sConflictFmt1[] = R"(
 <html>
 <head>
   <title>Solve Merge Conflict</title>
+  <script>
+    function clickAllOld() {
+      var radioButtons = document.querySelectorAll('input[type="radio"][id=^="conflict1"]');
+      radioButtons.forEach(function(radioButton) {
+        radioButton.checked = true;
+      });
+    }
+    function clickAllNew() {
+      var radioButtons = document.querySelectorAll('input[type="radio"][id=^="conflict2"]');
+      radioButtons.forEach(function(radioButton) {
+        radioButton.checked = true;
+      });
+    }
+  </script>
   <style>
     table {
       border-collapse: collapse;
@@ -44,12 +58,22 @@ constexpr const char sConflictFmt1[] = R"(
         overflow: auto;
         white-space: nowrap;
     }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
   </style>
 </head>
 <body>
   <h2>Solve Merge Conflict</h2>
   <p>Merge conflicts have been found. Please select the symbols of higher quality and click submit.</p>
   
+  <div class="buttons">
+    <button onclick=\"clickAllOld()\">Select all old</button>
+    <button onclick=\"clickAllNew()\">Select all new</button>
+  </div>
+  <br><br>
   <form method="post" action="submit_resolution">
     <table>
       <tr>
@@ -66,10 +90,12 @@ constexpr const char sConflictFmt2[] = R"(
     <input type="submit" value="Submit">
   </form>
 
-  <form method="post" action="submit_resolution">
-    <input type="hidden" name="cancel" value="SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL">
-    <button type="submit">Cancel</button>
-  </form>
+  <div class="buttons>
+    <form method="post" action="submit_resolution">
+      <input type="hidden" name="cancel" value="SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL">
+      <button type="submit">Cancel</button>
+    </form>
+  </div>
 </body>
 </html>
 )";
