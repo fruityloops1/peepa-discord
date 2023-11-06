@@ -59,21 +59,14 @@ constexpr const char sConflictFmt1[] = R"(
         overflow: auto;
         white-space: nowrap;
     }
-
-    .buttons {
-      display: flex;
-      gap: 10px;
-    }
   </style>
 </head>
 <body>
   <h2>Solve Merge Conflict</h2>
   <p>Merge conflicts have been found. Please select the symbols of higher quality and click submit.</p>
   
-  <div class="buttons">
-    <button onclick=\"selectOldButtons()\">Select all old</button>
-    <button onclick=\"selectNewButtons()\">Select all new</button>
-  </div>
+  <button onclick=\"selectOldButtons()\">Select all old</button>
+  <button onclick=\"selectNewButtons()\">Select all new</button>
   <br><br>
   <form method="post" action="submit_resolution">
     <table>
@@ -90,13 +83,11 @@ constexpr const char sConflictFmt2[] = R"(
     
     <input type="submit" value="Submit">
   </form>
-
-  <div class="buttons>
-    <form method="post" action="submit_resolution">
-      <input type="hidden" name="cancel" value="SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL">
-      <button type="submit">Cancel</button>
-    </form>
-  </div>
+  <form method="post" action="submit_resolution">
+    <input type="hidden" name="cancel" value="SUPERDUPERCANCELCANCELTHISSHITSOWECANNOTMERGETHESYMBOLSATALL">
+    <button type="submit">Cancel</button>
+  </form>
+  
 </body>
 </html>
 )";
